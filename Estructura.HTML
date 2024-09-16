@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de un desarrollador web.">
+    <title>Portafolio | Desarrollador Web</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula un archivo CSS externo -->
+</head>
+<body>
+    <!-- Encabezado del sitio -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Hola, soy [Tu Nombre]</h1>
+        <p>Desarrollador web especializado en [Tecnologías/Competencias]</p>
+    </header>
+
+    <!-- Sección Acerca de mí -->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador web con experiencia en [detalles sobre tu experiencia]. Me apasiona crear sitios web eficientes y bien diseñados que brinden una gran experiencia de usuario.</p>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1. Tecnologías utilizadas: HTML, CSS, JavaScript.</p>
+            <a href="enlace-a-tu-proyecto.com" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2. Tecnologías utilizadas: HTML, CSS, JavaScript.</p>
+            <a href="enlace-a-tu-proyecto.com" target="_blank">Ver proyecto</a>
+        </div>
+        <!-- Puedes agregar más proyectos aquí -->
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="submit-contacto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <!-- Agrega más enlaces a tus redes si es necesario -->
+        </div>
+    </footer>
+</body>
+</html>
